@@ -16,11 +16,16 @@ html{
     justify-content: space-between;
     margin-top: 20px;
 }
-.nav1 li{
+.nav1 ul li{
     display: inline;
     padding: 10px;
     font-weight: 700;
+   
     
+    
+}
+.nav1 a{
+    font-size: 20px;
 }
 .nav1{
     margin-top: 10px;
@@ -96,6 +101,22 @@ html{
 #ourmenu .container{
     margin-top: 50px;
 }
+.btn3{
+    display: grid;
+    place-content: center;
+}
+#btn3{
+    color: #fff;
+    background: #EB9422;
+    border-radius: 5px;
+    margin: 20px;
+    
+}
+
+#ourmenu h2{
+    font-size: 20px;
+    text-align: center;
+}
 #couresl img{
     height: 200px;
     width: 4px;
@@ -116,6 +137,17 @@ html{
     display: grid;
     place-content: center;
     text-align: center;
+    font-size: 10px;
+}
+.heading span{
+    color: #55B167;
+    text-decoration: underline;
+    text-decoration-color: #EB9422;
+    text-decoration-thickness: 6px;
+}
+.heading h1{
+    font-size: 29px;
+    margin: 30px;
 }
 #crust img{
     width: 70%;
@@ -186,7 +218,7 @@ html{
 .footer{
     background-color: #E1E1E1;
 }
-.footer li,a{
+#footer li,a{
     text-decoration: none;
     list-style: none;
     color: #55B167;
