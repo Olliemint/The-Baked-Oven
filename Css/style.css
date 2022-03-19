@@ -24,8 +24,19 @@ html{
     
     
 }
+.overlay{
+    position: relative;
+    color: #fff;
+    top: -48%;
+    left: 40%;
+    
+    border-radius: #EB9422;
+    transform: translate(48% -40%);
+
+    font-weight: 900;
+}
 .nav1 a{
-    font-size: 20px;
+    font-size: 15px;
 }
 .nav1{
     margin-top: 10px;
@@ -34,6 +45,7 @@ html{
     font-size: 25px;
     color: #55B167;
     margin-top: 5px;
+    
 }
 .cart li{
     list-style: none;
@@ -58,13 +70,19 @@ html{
     border-radius: 50px 0px 50px;
     width: 320px;
 }
+#btn a{
+    font-weight: 700;
+    color: #fff;
+    font-size: 20px;
+
+}
 #btn{
     height: 40px;
     width: 30%;
     background-color: #55B167;
     color: #fff;
     border-radius: 15px 0px 0px 0px;
-    font-weight: 700;
+    
     cursor: pointer;
 }
 #btn:hover{
@@ -213,6 +231,9 @@ html{
     font-weight: 800;
     text-decoration: underline;
     
+}
+.bookform{
+    display: none;
 }
 /* footer styling */
 .footer{

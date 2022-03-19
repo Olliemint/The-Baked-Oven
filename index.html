@@ -20,14 +20,15 @@
                   </div>
                   <div class="nav1">
                       <ul>
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">About</a></li>
-                          <li><a href="#">Menu</a></li>
-                          <li><a href="#">Contacts</a></li>
+                          <li><a href="#hero">Home</a></li>
+                          <li><a href="#book">Reservation</a></li>
+                          <li><a href="#ourmenu">Menu</a></li>
+                          <li><a href="#footer">Contacts</a></li>
                       </ul>
                   </div>
                   <div class="cart">
-                      <li><i class="fa-solid fa-basket-shopping fa-2x" style="color: #55B167;"></i></li>
+                      <li><i class="fa-solid fa-cart-shopping fa-2x" style="color: #55B167;"></i></li>
+                      <p class="overlay">4</p>
                   </div>
                 </div>
               
@@ -43,7 +44,7 @@
                  </div>
                  <h1>Enjoy Your <br> Delicious Food</h1>
                  <p>Baked-Oven pizza box might be one of the most recognisable icons of Africa. Whichever way you slice it,</p>
-                 <button id="btn">Order Now</button>
+                 <button id="btn"><a href="#ourmenu">Order Now</a></button>
             </div>
           </div>
         </div>
@@ -190,7 +191,7 @@
           <div class="resv">
           <h5>Reservation</h5>
         </div>
-        </div>
+        
           <h6 class="card-subtitle">Opening Time</h6>
           <div class="details">
               <div class="items">
@@ -211,6 +212,26 @@
             <div class="btn">
               <button id="btn2">Book Now</button>
             </div>
+          </div>
+          <div class="bookform">
+            <form id="bookf">
+              <label for="name">Enter Name:</label><br>
+              <input type="text" placeholder="Full Name..">
+              <label for="time">Time in:</label>
+              <input type="text" placeholder="Arrival time.."><br>
+              <label for="tabel">Position:</label><br>
+              <select id="Position">
+                <option value="">Center</option>
+                <option value="">Right</option>
+                <option value="">Left</option>
+                <option value="">Back</option>
+                <option value="">Front</option>
+
+
+      
+              </select><br>
+              <button id="btn4">Submit</button><br>
+            </form>
           </div>
          
         </div>
