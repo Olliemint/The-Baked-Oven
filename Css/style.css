@@ -70,7 +70,32 @@ html{
 #hero .row{
     margin-top: 50px;
 }
+/* about us section */
+#aboutus{
+    margin-top: 50px;
+}
+#aboutus img{
+    height: 50px;
+    width: 50px;
+}
+#aboutus h2{
+    font-size: 15px;
+    font-weight: 700;
+}
+#aboutus p{
+    font-size: 10px;
+}
+#aboutus .col-6{
+    display: flex;
+}
+#us{
+    display: grid;
+    place-content: center;
+}
 /* menu section */
+#ourmenu .container{
+    margin-top: 50px;
+}
 #couresl img{
     height: 200px;
     width: 4px;
@@ -93,6 +118,11 @@ html{
     text-align: center;
 }
 #crust img{
+    width: 70%;
+    height: 35vh;
+    border-radius: 50%;
+}
+#topping img{
     width: 70%;
     height: 35vh;
     border-radius: 50%;
