@@ -10,3 +10,30 @@
 html{
     scroll-behavior: smooth;
 }
+/* nav bar styling */
+#navlist{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.nav1 li{
+    display: inline;
+    padding: 10px;
+    font-weight: 700;
+    
+}
+.nav1{
+    margin-top: 10px;
+}
+.logo h1{
+    font-size: 25px;
+    color: #55B167;
+    margin-top: 5px;
+}
+.cart li{
+    list-style: none;
+    
+    
+
+    
+}
