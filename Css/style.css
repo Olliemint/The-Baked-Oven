@@ -70,3 +70,30 @@ html{
 #hero .row{
     margin-top: 50px;
 }
+/* menu section */
+#couresl img{
+    height: 200px;
+    width: 4px;
+    border-radius: 200px;
+    border: 5px solid #55B167;
+
+
+}
+#couresl h5{
+    color: #55B167;
+    font-weight: 700;
+}
+#couresl p{
+    color: #fff;
+    font-weight: 700;
+}
+.heading{
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+#crust img{
+    width: 70%;
+    height: 35vh;
+    border-radius: 50%;
+}
