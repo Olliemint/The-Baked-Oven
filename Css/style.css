@@ -136,4 +136,24 @@ html{
    
 }
 /* reservation section */
-
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+#book{
+    display: grid;
+    place-content: center;
+    background-image: url("/assets/booksection.jpg");
+    background-size: cover;
+}
+#book .card{
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+}
+.resv{
+    background-color: #55B167;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
