@@ -32,8 +32,40 @@ html{
 }
 .cart li{
     list-style: none;
+  
+}
+/* hero section styling */
+.discount{
+    background-color: #55B167;
+    width: 33%;
+    border-radius: 2px;
+}
+.discount p{
+    color: white;
+    font-size: 10px;
     
     
-
+    text-align: center;
     
+}
+.col-sm-6 img{
+    height: 260px;
+    border-radius: 50px 0px 50px;
+    width: 320px;
+}
+#btn{
+    height: 40px;
+    width: 30%;
+    background-color: #55B167;
+    color: #fff;
+    border-radius: 15px 0px 0px 0px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #EB9422;
+    
+}
+#hero .row{
+    margin-top: 50px;
 }
