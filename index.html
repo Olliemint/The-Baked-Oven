@@ -114,7 +114,9 @@
                       <h5>Tonda Romana</h5>
                       <p>This kind is flat and round and it has a very thin crust.</p>
                     </div>
+                   
                   </div>
+                 
                   <div class="carousel-item" data-bs-interval="2000">
                     <img src="./assets/Pizza/pizza2.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
@@ -139,16 +141,71 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
+              <div id="select" class="all">
+                <select id="pizzacost">
+                    <option value="800">Large</option>
+                    <option value="600">Medium</option>
+                    <option value="400">Small</option>
+          
+                  </select>
+            </div>
           </div>
           <div class="col-6 col-sm-4" id="crust">
                 <h2>Crust</h2>
                 <img src="./assets/stuffed-crust-db40db2.jpg" alt="">
+                <div id="select" class="all">
+                    <select id="mycrust">
+                        <option value="150">Crispy</option>
+                        <option value="50">Stuffed</option>
+                        <option value="100">Gluten-free</option>
+              
+                      </select>
+                </div>
           </div>
           <div class="col-6 col-sm-4" id="topping">
               <h2>Topping</h2>
               <img src="./assets/mushroom-pizza.jpg" alt="">
+              <div id="select" class="all">
+                <select id="mytopping">
+                    <option value="50">Mushroom</option>
+                    <option value="70">Black olives</option>
+                    <option value="100">Fresh garlic</option>
+          
+                  </select>
+            </div>
           </div>
       
+        </div>
+      </div>
+</div>
+<!-- order section -->
+
+<!-- reservation section -->
+<div class="container-fluid" id="book">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Reservation</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Opening Time</h6>
+          <div class="details">
+              <div class="items">
+                  <p>Week Days</p>
+                  <p>8:00 - 22:00</p>
+              </div>
+              <div class="items">
+                <p>Saturday</p>
+                <p>10:00 - 20:00</p>
+            </div>
+            <div class="items">
+                <p>Week Days</p>
+                <p>13:00 - 19:00</p>
+            </div>
+          </div>
+          <div class="order1">
+              <p>Book your table for lunch and dinner</p>
+              <p>0722581729</p>
+              <button id="btn2">Book Now</button>
+          </div>
+         
         </div>
       </div>
 </div>

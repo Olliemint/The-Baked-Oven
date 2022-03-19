@@ -127,3 +127,13 @@ html{
     height: 35vh;
     border-radius: 50%;
 }
+.all{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.all select{
+    color: #55B167;
+   
+}
+/* reservation section */
+
