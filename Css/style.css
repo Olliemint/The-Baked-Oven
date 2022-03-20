@@ -186,6 +186,26 @@ html{
     color: #55B167;
    
 }
+/* order section */
+#display{
+   display: grid;
+   place-content: center;
+}
+#display .row{
+    color: #55B167;
+    
+}
+.sumhead h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1382dd;
+    
+}
+.btn5{
+    display: grid;
+    place-content: center;
+}
 /* reservation section */
 .items{
     display: flex;
