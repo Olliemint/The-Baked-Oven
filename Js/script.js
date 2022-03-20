@@ -16,9 +16,14 @@ let button3 = document.getElementById("btn3");
 button3.addEventListener("click", (e) =>{
     e.preventDefault();
 
-    // pizza selecion
+    // pizza selection
     var pizzaPicked = document.getElementById("pizzacost");
     var Pizza = parseInt(pizzaPicked.options[pizzaPicked.selectedIndex].value);
+
+    var Pizzalabel = document.getElementById("pizzacost");
+    var Pizzasize = Pizzalabel.options[Pizzalabel.selectedIndex].text;
+    
+    
 
     // var strUser = e.options[e.selectedIndex].value;
 
@@ -26,14 +31,37 @@ button3.addEventListener("click", (e) =>{
     var crustPicked = document.getElementById("mycrust");
     var Crust = parseInt(crustPicked.options[crustPicked.selectedIndex].value);
 
+    var Crustlabel = document.getElementById("mycrust");
+    var Crustsize = Crustlabel.options[Crustlabel.selectedIndex].text;
+
+
     // topping selection
     var toppingPicked = document.getElementById("mytopping");
     var Topping = parseInt(toppingPicked.options[toppingPicked.selectedIndex].value);
+
+    var Toppinglabel = document.getElementById("mytopping");
+    var Toppingsize = Toppinglabel.options[Toppinglabel.selectedIndex].text;
+
+    alert(Toppingsize)
+
 
     
     let orderTotal = new myorder(Pizza, Crust, Topping);
 
     alert(orderTotal.Fullorder())
+
+//     let myarray = [];
+
+  
+
+//     myarray.push(orderTotal.Fullorder());
+//     console.log(myarray);
+
+
+//     var node = document.createElement('li');
+// node.appendChild(document.createTextNode(`Your cosh is Sh${orderTotal.Fullorder()}`));
+ 
+// document.getElementById("ol").appendChild(node);
     
    
         
