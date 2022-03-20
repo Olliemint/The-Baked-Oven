@@ -164,7 +164,7 @@ button6.addEventListener("click", (e) =>{
         return a + b;
         
     })
-    alert(Grandtotal)
+    document.getElementById("total").innerHTML = `Your order Totals is: Ksh ${Grandtotal}`
 })
     
 
