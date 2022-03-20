@@ -34,3 +34,33 @@ button3.addEventListener("click", (e) =>{
 
 
 })
+
+
+// book now script
+let button4 = document.getElementById("btn4");
+
+let form = document.getElementById("bookf");
+
+form.addEventListener("submit", (e) =>{
+    e.preventDefault();
+
+    let form = new FormData(e.target);
+
+    let name = document.getElementById("name").value;
+    
+    document.getElementById("results").innerHTML = ("Hey" +" "+name+ " "+ "Your Booking was Succesful. Thank you for choosing Baked-Oven")
+
+})
+
+$(document).ready(function(){
+    $("#btn2").click(function(){
+        
+            $(".bookform").show();
+    $("#btn4").click(function(){
+
+        $(".bookform").hide();
+
+    })
+
+    })
+})
