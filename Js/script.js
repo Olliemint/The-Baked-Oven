@@ -8,6 +8,10 @@ myorder.prototype.Fullorder = function(){
     return this.Pizza + this.Crust + this.Topping;
 }
 
+let myarray = [];
+
+
+
 
 
 // user interface logic
@@ -42,15 +46,17 @@ button3.addEventListener("click", (e) =>{
     var Toppinglabel = document.getElementById("mytopping");
     var Toppingsize = Toppinglabel.options[Toppinglabel.selectedIndex].text;
 
-    alert(Toppingsize)
+    
 
 
     
     let orderTotal = new myorder(Pizza, Crust, Topping);
 
-    alert(orderTotal.Fullorder())
+    
 
-//     let myarray = [];
+    
+
+    
 
   
 
@@ -58,11 +64,15 @@ button3.addEventListener("click", (e) =>{
 //     console.log(myarray);
 
 
-//     var node = document.createElement('li');
-// node.appendChild(document.createTextNode(`Your cosh is Sh${orderTotal.Fullorder()}`));
+    var node = document.createElement('li');
+node.appendChild(document.createTextNode(`You ordered ${Pizzasize} Pizza with ${Crustsize} crust & ${Toppingsize} topping @${orderTotal.Fullorder()}Ksh`));
  
-// document.getElementById("ol").appendChild(node);
-    
+document.getElementById("ul").appendChild(node);
+myarray.push(orderTotal.Fullorder())
+
+
+console.log(myarray);
+
    
         
     
