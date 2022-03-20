@@ -216,11 +216,11 @@
           <div class="bookform">
             <form id="bookf">
               <label for="name">Enter Name:</label><br>
-              <input type="text" placeholder="Full Name..">
+              <input type="text" placeholder="Full Name.." required id="name">
               <label for="time">Time in:</label>
-              <input type="text" placeholder="Arrival time.."><br>
+              <input type="text" placeholder="Arrival time.." required id="time"><br>
               <label for="tabel">Position:</label><br>
-              <select id="Position">
+              <select id="Position" required>
                 <option value="">Center</option>
                 <option value="">Right</option>
                 <option value="">Left</option>
@@ -231,8 +231,11 @@
       
               </select><br>
               <button id="btn4">Submit</button><br>
+              
             </form>
+            
           </div>
+          <p id="results"></p>
          
         </div>
       </div>

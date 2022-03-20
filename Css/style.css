@@ -235,6 +235,9 @@ html{
 .bookform{
     display: none;
 }
+#results{
+    color: #1382dd;
+}
 /* footer styling */
 .footer{
     background-color: #E1E1E1;

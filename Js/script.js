@@ -1,11 +1,11 @@
 // Business logic
-function myorder(pizzacost, mycrust, mytopping){
-    this.pizzacost = pizzacost
-    this.mycrust = mycrust
-    this.mytopping = mytopping
+function myorder(Pizza, Crust, Topping){
+    this.Pizza = Pizza
+    this.Crust = Crust
+    this.Topping = Topping
 }
 myorder.prototype.Fullorder = function(){
-    return this.pizzacost + this.mycrust + this.mytopping
+    return this.Pizza + this.Crust + this.Topping;
 }
 
 
@@ -18,18 +18,26 @@ button3.addEventListener("click", (e) =>{
 
     // pizza selecion
     var pizzaPicked = document.getElementById("pizzacost");
-    var Pizza = pizzaPicked.options[pizzaPicked.selectedIndex].value;
+    var Pizza = parseInt(pizzaPicked.options[pizzaPicked.selectedIndex].value);
 
     // var strUser = e.options[e.selectedIndex].value;
 
     //    crust selection
     var crustPicked = document.getElementById("mycrust");
-    var Crust = crustPicked.options[crustPicked.selectedIndex].value;
+    var Crust = parseInt(crustPicked.options[crustPicked.selectedIndex].value);
 
     // topping selection
     var toppingPicked = document.getElementById("mytopping");
-    var Topping = toppingPicked.options[toppingPicked.selectedIndex].value;
+    var Topping = parseInt(toppingPicked.options[toppingPicked.selectedIndex].value);
 
+    
+    let orderTotal = new myorder(Pizza, Crust, Topping);
+
+    alert(orderTotal.Fullorder())
+    
+   
+        
+    
     
 
 
