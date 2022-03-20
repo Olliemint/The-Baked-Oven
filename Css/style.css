@@ -191,8 +191,10 @@ html{
    display: grid;
    place-content: center;
 }
-#display .row{
+#display #ul{
     color: #55B167;
+    display: grid;
+    place-content: center;
     
 }
 .sumhead h1{
@@ -202,10 +204,12 @@ html{
     color: #1382dd;
     
 }
-.btn5{
-    display: grid;
-    place-content: center;
+.btn56{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
 }
+
 /* reservation section */
 .items{
     display: flex;

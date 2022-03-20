@@ -148,6 +148,28 @@ console.log(myarray);
 
 })
 
+// checkout script?
+let button6 = document.getElementById("btn6");
+
+button6.addEventListener("click", (e) =>{
+    e.preventDefault();
+
+    alert("wow we can checkout")
+    // let Grandtotal = function(){
+
+    // }
+    let newArray = myarray.map((i) => Number(i));
+
+    let Grandtotal = newArray.reduce(function(a,b){
+        return a + b;
+        
+    })
+    alert(Grandtotal)
+})
+    
+
+
+
 
 
 // book now script
