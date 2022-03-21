@@ -1,8 +1,8 @@
 # The-Baked-Oven
 ##### By Oliver Maiyo
 
-### This is a Pizza Joint
-<img width="1440" alt="Landing page" src="https://raw.githubusercontent.com/Olliemint/Akan-names/main/assets/landingpage.png">
+### This is a Pizza Ordering Website
+<img width="1440" alt="Landing page" src="">
 
 ## Table of Content
 + [Description](#description)
@@ -24,18 +24,19 @@
 ### Installation Process
 * Clone the github repo
 * Open the clone in an IDE and host it on your browser
-[Go Back to the top](#By Oliver Maiyo)
+[Go Back to the top](##### By Oliver Maiyo)
 
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
 * CSS - which was used to style the pages
 * JAVASCRIPT - which was used to design toggle and onclick events of buttons
 * BOOTSTRAP - which was used to style and achieve responsiveness
+* JQUERY - this was used to manipulate buttons
 
 ### Behaviour Driven Development (BDD)
 
 | Behaviour  | Input | Output |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- |
 | Loads to a landing page hero message and display menu and order  | Allows user to choose size of Pizza crust and toppings, also prompt user to enter location |  alerts the user that their order will be delivered to their location, also allows the user to see the grand total and summary of orders |
 
 ## Reference
@@ -43,6 +44,7 @@
 * [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML)
 * [JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Glossary/javascript)
 * [BOOTSTRAP](https://developer.mozilla.org/en-US/docs/Glossary/bootstrap)
+* [JQUERY](https://developer.mozilla.org/en-US/docs/Glossary/JQUERY)
 
 ## Known Bugs
 There are no any Known bugs now
