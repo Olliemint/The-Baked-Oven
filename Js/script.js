@@ -166,6 +166,30 @@ button6.addEventListener("click", (e) =>{
     })
     document.getElementById("total").innerHTML = `Your order Totals is: Ksh ${Grandtotal}`
 })
+
+
+// delivery option script (Yes option)
+let button7 = document.getElementById("btn7");
+
+button7.addEventListener("click", (e) =>{
+    e.preventDefault();
+
+    alert("Additional Delivery fee is Ksh 150")
+    prompt("Enter Your delivery location.")
+    alert("Your order will be delivered to your location.")
+})
+
+
+// delivery option script (No option)
+let button8 = document.getElementById("btn8");
+
+button8.addEventListener("click", (e) =>{
+
+    alert("Okay you can go ahead and checkout.")
+
+})
+
+    
     
 
 

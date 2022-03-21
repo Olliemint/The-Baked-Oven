@@ -209,6 +209,18 @@ html{
     justify-content: center;
     gap: 4%;
 }
+#delivery{
+    display: grid;
+    place-content: center;
+}
+.btn7, .location{
+    display: grid;
+    place-content: center;
+}
+.btn7{
+    display: flex;
+    gap: 3%;
+}
 
 /* reservation section */
 .items{
