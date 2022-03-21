@@ -35,7 +35,7 @@
 ### Behaviour Driven Development (BDD)
 
 | Behaviour  | Input | Output |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- |
 | Loads to a landing page hero message and display menu and order  | Allows user to choose size of Pizza crust and toppings, also prompt user to enter location |  alerts the user that their order will be delivered to their location, also allows the user to see the grand total and summary of orders |
 
 ## Reference
