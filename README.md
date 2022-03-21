@@ -2,7 +2,7 @@
 ##### By Oliver Maiyo
 
 ### This is a Pizza Ordering Website
-<img width="1440" alt="Landing page" src="">
+<img width="1440" alt="Landing page" src="https://raw.githubusercontent.com/Olliemint/The-Baked-Oven/main/assets/landingpizza.png">
 
 ## Table of Content
 + [Description](#description)
@@ -16,8 +16,7 @@
 ## Description
 <p>This is a Website that lets a user order Pizza and choose it should be delivered or not.</p>
 
-## Installation
-### Requirements
+## Installation Requirement
 * Either a computer,phone,tablet or an Ipad
 * Access to the Internet
 
