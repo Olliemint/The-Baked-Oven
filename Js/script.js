@@ -9,6 +9,7 @@ myorder.prototype.Fullorder = function(){
 }
 
 let myarray = [];
+let Additinalcost = 150;
 
 
 
@@ -154,7 +155,7 @@ let button6 = document.getElementById("btn6");
 button6.addEventListener("click", (e) =>{
     e.preventDefault();
 
-    alert("wow we can checkout")
+    // alert("wow we can checkout")
     // let Grandtotal = function(){
 
     // }
@@ -164,7 +165,9 @@ button6.addEventListener("click", (e) =>{
         return a + b;
         
     })
-    document.getElementById("total").innerHTML = `Your order Totals is: Ksh ${Grandtotal}`
+    document.getElementById("grand").innerHTML = `Totals: Ksh ${Grandtotal}`
+
+    // document.getElementById("total").innerHTML = `Your order Totals is: Ksh ${Grandtotal}`
 })
 
 
@@ -189,8 +192,27 @@ button8.addEventListener("click", (e) =>{
 
 })
 
+// checkout yes Script
+let button9 = document.getElementById("btn9");
+
+button9.addEventListener("click", (e) =>{
     
+    // let Additinalcost = 150;
     
+
+    let newArray = myarray.map((i) => Number(i));
+
+    let Grandtotal = newArray.reduce(function(a,b){
+        return a + b;
+        
+    })
+
+    // document.getElementById("additional").innerHTML = `Additional Delivery Cost: Ksh ${Additinalcost}`
+    
+
+    document.getElementById("grand2").innerHTML = `Totals: Ksh ${Grandtotal + Additinalcost}`
+
+});   
 
 
 
@@ -212,6 +234,9 @@ form.addEventListener("submit", (e) =>{
 
 })
 
+
+
+
 $(document).ready(function(){
     $("#btn2").click(function(){
         
@@ -223,4 +248,44 @@ $(document).ready(function(){
     })
 
     })
+})
+$(document).ready(function(){
+    $("#btn7").click(function(){
+        document.getElementById("additional").innerHTML = `Additional Delivery Cost: Ksh ${Additinalcost}`
+        // $("#btn7").hide();
+        // $("#btn8").hide();
+
+
+    })
+    // order button hide
+    $("#btn3").click(function(){
+        $("#btn5").show();
+        $(".sumhead").show();
+        $("#card1").show();
+        $("#btn3").hide();
+    })
+    // add more button show additional
+    $("#btn5").click(function(){
+        $(".deliver").show();
+
+
+    })
+    // hide add more button
+    $("#btn7").click(function(){
+        $("#btn5").hide();
+        $(".deliver").hide();
+        $("#btn9").show();
+
+    })
+
+    // hide add more button
+    $("#btn8").click(function(){
+        $("#btn5").hide();
+        $(".deliver").hide();
+        $("#btn6").show();
+
+    })
+    // checkout buttons show
+
+
 })

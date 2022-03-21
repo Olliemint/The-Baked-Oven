@@ -125,9 +125,10 @@ html{
 }
 #btn3{
     color: #fff;
-    background: #EB9422;
+    background: #55B167;
     border-radius: 5px;
     margin: 20px;
+    border: 2px solid #55B167;
     
 }
 
@@ -191,11 +192,18 @@ html{
    display: grid;
    place-content: center;
 }
+#card1{
+    display: none;
+    margin-bottom: 20px;
+}
 #display #ul{
     color: #55B167;
     display: grid;
     place-content: center;
     
+}
+.sumhead{
+    display: none;
 }
 .sumhead h1{
     text-align: center;
@@ -208,18 +216,68 @@ html{
     display: flex;
     justify-content: center;
     gap: 4%;
+    
+}
+#btn5{
+    display: none;
 }
 #delivery{
     display: grid;
     place-content: center;
 }
+.deliver{
+    display: none;
+}
 .btn7, .location{
     display: grid;
     place-content: center;
+    text-align: center;
+    
+}
+#grand, #grand2{
+    color: #55B167;
+    font-size: 35px;
+    font-weight: 700;
+}
+#additional{
+    color: crimson;
 }
 .btn7{
     display: flex;
     gap: 3%;
+}
+#btn7, #btn8{
+    background-color: #1382dd;
+    color: #fff;
+    width: 50px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 2px solid #1382dd;
+}
+#btn5{
+    color: #fff;
+    background-color: #55B167;
+    border: 2px solid #55B167;
+    width: 90px;
+    height: 35px;
+    font-weight: 700;
+}
+#btn6, #btn9{
+    
+    color: #fff;
+    background-color: #55B167;
+    height: 38px;
+    width: 100px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #55B167;
+    margin: 1px;
+    display: none;
+    margin-bottom: 15px;
+}
+.checkbtns{
+    display: grid;
+    place-content: center;
 }
 
 /* reservation section */
@@ -257,6 +315,7 @@ html{
     width: 90px;
     border-radius: 10px 0px 0px 0px;
 }
+
 .order1{
     font-size: 15px;
     text-align: center;
