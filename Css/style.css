@@ -11,6 +11,15 @@ html{
     scroll-behavior: smooth;
 }
 /* nav bar styling */
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -10px;
+}
 #navlist{
     display: flex;
     justify-content: space-between;
@@ -27,7 +36,7 @@ html{
 .overlay{
     position: relative;
     color: #fff;
-    top: -48%;
+    top: -40%;
     left: 40%;
     
     border-radius: #EB9422;
@@ -42,9 +51,10 @@ html{
     margin-top: 10px;
 }
 .logo h1{
-    font-size: 25px;
+    font-size: 17px;
     color: #55B167;
-    margin-top: 5px;
+    margin-top: 16px;
+    font-weight: 700;
     
 }
 .cart li{
@@ -362,4 +372,7 @@ html{
 }
 .copyright p{
     font-size: 10px;
+}
+#fade{
+    display: none;
 }

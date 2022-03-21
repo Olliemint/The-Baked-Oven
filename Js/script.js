@@ -13,6 +13,21 @@ let Additinalcost = 150;
 
 
 
+// cart count display script
+
+var button11 = document.getElementById("btn5"),
+  count = 1;
+button11.onclick = function() {
+  count += 1;
+ document.getElementById("order").innerHTML = `${count}`
+};
+
+var button12 = document.getElementById("btn3"),
+  count = 0;
+button12.onclick = function() {
+  count += 1;
+ document.getElementById("order").innerHTML = `${count}`
+};
 
 
 // user interface logic
@@ -56,7 +71,6 @@ button3.addEventListener("click", (e) =>{
     
 
     
-
     
 
   
@@ -119,6 +133,10 @@ button5.addEventListener("click", (e) =>{
 
     
     let orderTotal = new myorder(Pizza, Crust, Topping);
+
+    
+
+   
 
     
 
@@ -189,6 +207,7 @@ let button8 = document.getElementById("btn8");
 button8.addEventListener("click", (e) =>{
 
     alert("Okay you can go ahead and checkout.")
+   
 
 })
 
