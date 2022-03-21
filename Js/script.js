@@ -157,7 +157,7 @@ document.getElementById("ul").appendChild(node);
 myarray.push(orderTotal.Fullorder())
 
 
-console.log(myarray);
+
 
    
         
