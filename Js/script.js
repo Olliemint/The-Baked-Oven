@@ -80,7 +80,7 @@ button3.addEventListener("click", (e) =>{
 
 
     var node = document.createElement('li');
-node.appendChild(document.createTextNode(`You ordered ${Pizzasize} Pizza with ${Crustsize} crust & ${Toppingsize} topping @${orderTotal.Fullorder()}Ksh`));
+node.appendChild(document.createTextNode(`You ordered ${Pizzasize} with ${Crustsize} & ${Toppingsize} your total is Ksh ${orderTotal.Fullorder()}`));
  
 document.getElementById("ul").appendChild(node);
 myarray.push(orderTotal.Fullorder())
@@ -149,9 +149,8 @@ button5.addEventListener("click", (e) =>{
 //     myarray.push(orderTotal.Fullorder());
 //     console.log(myarray);
 
-
-    var node = document.createElement('li');
-node.appendChild(document.createTextNode(`You ordered ${Pizzasize} Pizza with ${Crustsize} crust & ${Toppingsize} topping @${orderTotal.Fullorder()}Ksh`));
+var node = document.createElement('li');
+node.appendChild(document.createTextNode(`You ordered ${Pizzasize} with ${Crustsize} & ${Toppingsize} your total is Ksh ${orderTotal.Fullorder()}`));
  
 document.getElementById("ul").appendChild(node);
 myarray.push(orderTotal.Fullorder())
@@ -183,6 +182,7 @@ button6.addEventListener("click", (e) =>{
         return a + b;
         
     })
+    
     document.getElementById("grand").innerHTML = `Totals: Ksh ${Grandtotal}`
 
     // document.getElementById("total").innerHTML = `Your order Totals is: Ksh ${Grandtotal}`
@@ -196,8 +196,9 @@ button7.addEventListener("click", (e) =>{
     e.preventDefault();
 
     alert("Additional Delivery fee is Ksh 150")
-    prompt("Enter Your delivery location.")
-    alert("Your order will be delivered to your location.")
+    var location = prompt("Enter Your delivery location:")
+    // alert("Your order will be delivered to your location.")
+    alert(`Your order will be delivered to ${location}`)
 })
 
 
