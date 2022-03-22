@@ -5,10 +5,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     
+    
    
 }
 html{
     scroll-behavior: smooth;
+    
 }
 /* nav bar styling */
 .logo{
@@ -38,7 +40,7 @@ html{
     color: #fff;
     top: -40%;
     left: 40%;
-    
+    border: 50%;
     border-radius: #EB9422;
     transform: translate(48% -40%);
 
