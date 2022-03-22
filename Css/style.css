@@ -300,7 +300,7 @@ html{
 #book{
     display: grid;
     place-content: center;
-    background-image: url("/assets/booksection.jpg");
+    background-image: url("https://raw.githubusercontent.com/Olliemint/The-Baked-Oven/main/assets/booksection.jpg");
     background-size: cover;
 }
 #book .card{
